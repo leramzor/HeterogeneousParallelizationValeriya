@@ -45,6 +45,8 @@
 - double average = sum / SIZE;       // среднее
 - delete[] arr;                      // освобождаем память
 
+**Output:**
+<img width="1084" height="209" alt="image" src="https://github.com/user-attachments/assets/187d45fe-aab5-4bdc-bb7f-20f911de4103" />
 
 ### Задание 2 (Assignment1.2task.cpp) — Последовательный min/max
 **Что сделано:**
@@ -63,7 +65,8 @@
 -    if (arr[i] < min_val) min_val = arr[i];  // Обновление минимума
 -    if (arr[i] > max_val) max_val = arr[i];  // Обновление максимума
 
-
+**Output:**
+<img width="1087" height="244" alt="image" src="https://github.com/user-attachments/assets/fea97803-0dc6-4712-8a27-e66658fe2e2f" />
 
 ### Задание 3 (Assignment1.task3.cpp) — Параллельный min/max
 **Что сделано:**
@@ -78,6 +81,9 @@
 - for (int i = 0; i < SIZE; ++i) {
 -    if (arr[i] < min_par) min_par = arr[i]; // Локальное обновление минимума в потоке
 -    if (arr[i] > max_par) max_par = arr[i]; // Локальное обновление максимума в потоке
+
+**Output:**
+<img width="1081" height="291" alt="image" src="https://github.com/user-attachments/assets/b73d65aa-cf1d-4b40-bf53-d19fbe82c78e" />
 
 
 ### Задание 4 (Assignment1.task4.cpp) — Среднее с reduction
@@ -95,6 +101,8 @@
 - for (long long i = 0; i < SIZE; ++i) {
 -    sum_par += arr[i];  // Локальное накопление суммы в потоке
 
+**Output:**
+<img width="1088" height="305" alt="image" src="https://github.com/user-attachments/assets/d44ae872-c042-4725-bcfc-011fff2167f1" />
 
 
 ### Контрольные вопросы
