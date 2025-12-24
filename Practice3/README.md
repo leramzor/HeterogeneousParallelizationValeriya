@@ -68,6 +68,7 @@
 - Гибридный подход позволяет обойти проблему рекурсии на GPU.
 
 **Output:**
+<img width="1219" height="283" alt="image" src="https://github.com/user-attachments/assets/deab450f-dbe4-425c-952d-f4be2c53bea5" />
 
 
 ### Часть 3 (`part3_heap_sort.cu`) — Heap Sort с параллельным heapify
