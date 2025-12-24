@@ -81,6 +81,7 @@
 - Основная параллелизация – в операции heapify, которая применяется независимо к разным узлам.
 
 **Output:**
+<img width="952" height="412" alt="image" src="https://github.com/user-attachments/assets/237a7361-eb14-420f-8008-359adad4c8ba" />
 
 
 ## Контрольные вопросы
