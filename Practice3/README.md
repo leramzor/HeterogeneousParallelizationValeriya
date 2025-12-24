@@ -28,7 +28,7 @@
 Основана на **Лекции №3: Архитектура GPU и программирование на CUDA**.
 
 ## Структура репозитория
-- ├── part1.cu      # Bitonic Merge Sort на GPU
+- ├── part1_bitonic_sort.cu     # Bitonic Merge Sort на GPU
 - ├── part2_quick_sort_hybrid.cu # Гибридная Quick Sort (GPU + CPU)
 - ├── part3_heap_sort.cu         # Heap Sort с параллельным heapify на GPU
 - ├── Ответы на контрольные вопросы Практика3.txt  # Ответы на контрольные вопросы
@@ -37,7 +37,7 @@
 
 ## Подробное описание решения каждой части
 
-### Часть 1 (`part1.cpp`) — Bitonic Merge Sort на GPU
+### Часть 1 (`part1_bitonic_sort.cu`) — Bitonic Merge Sort на GPU
 
 **Что сделано:**
 - Полностью параллельная реализация Bitonic Sort (вариант Merge Sort для GPU).
@@ -55,7 +55,7 @@
 
 
 
-### Часть 2 (`part2.cpp`) — Гибридная Quick Sort
+### Часть 2 (`part2_quick_sort_hybrid.cu`) — Гибридная Quick Sort
 
 **Что сделано:**
 - Реализован один уровень partition полностью параллельно на GPU (каждый поток определяет, меньше ли его элемент опорного).
@@ -70,7 +70,7 @@
 **Output:**
 
 
-### Часть 3 (`part3.cpp`) — Heap Sort с параллельным heapify
+### Часть 3 (`part3_heap_sort.cu`) — Heap Sort с параллельным heapify
 
 **Что сделано:**
 - Параллельное построение кучи: каждый поток выполняет heapify для своего поддерева.
