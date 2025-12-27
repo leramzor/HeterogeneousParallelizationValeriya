@@ -70,6 +70,10 @@
 -    if (arr[i] < min_val) min_val = arr[i];  // Обновление минимума
 -    if (arr[i] > max_val) max_val = arr[i];  // Обновление максимума
 
+**Блок-схема:**
+<img width="2995" height="10629" alt="Untitled diagram-2025-12-27-131134" src="https://github.com/user-attachments/assets/0ad0df9d-5bd0-43df-8307-41137acee7f7" />
+
+
 **Output:**
 <img width="1087" height="244" alt="image" src="https://github.com/user-attachments/assets/fea97803-0dc6-4712-8a27-e66658fe2e2f" />
 
