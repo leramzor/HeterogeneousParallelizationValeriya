@@ -45,8 +45,7 @@
 - double average = sum / SIZE;       // среднее
 - delete[] arr;                      // освобождаем память
 
-**Блок-схема:**
-<img width="2865" height="5870" alt="Untitled diagram-2025-12-27-130922" src="https://github.com/user-attachments/assets/9efb578a-e20a-4210-bb36-2d2baba0ac31" />
+
 
 
 
@@ -70,8 +69,7 @@
 -    if (arr[i] < min_val) min_val = arr[i];  // Обновление минимума
 -    if (arr[i] > max_val) max_val = arr[i];  // Обновление максимума
 
-**Блок-схема:**
-<img width="2995" height="10629" alt="Untitled diagram-2025-12-27-131134" src="https://github.com/user-attachments/assets/0ad0df9d-5bd0-43df-8307-41137acee7f7" />
+
 
 
 **Output:**
@@ -91,8 +89,6 @@
 -    if (arr[i] < min_par) min_par = arr[i]; // Локальное обновление минимума в потоке
 -    if (arr[i] > max_par) max_par = arr[i]; // Локальное обновление максимума в потоке
 
-  **Блок-схема:**
-  <img width="2862" height="11780" alt="Untitled diagram-2025-12-27-131320" src="https://github.com/user-attachments/assets/09d7ffd2-adad-40b3-bd67-ea7fde3f75c6" />
 
 
 **Output:**
@@ -114,8 +110,7 @@
 - for (long long i = 0; i < SIZE; ++i) {
 -    sum_par += arr[i];  // Локальное накопление суммы в потоке
 
-**Блок-схема:**
-<img width="2862" height="11780" alt="Untitled diagram-2025-12-27-131320" src="https://github.com/user-attachments/assets/b707bd17-dbad-4acc-8d7b-10adce8bbde8" />
+
 
 
 **Output:**
