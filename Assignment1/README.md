@@ -45,6 +45,10 @@
 - double average = sum / SIZE;       // среднее
 - delete[] arr;                      // освобождаем память
 
+**Блок-схема:**
+<img width="2244" height="2805" alt="image" src="https://github.com/user-attachments/assets/db4d0ca2-1d7c-4672-a389-ba04df780ad9" />
+
+
 **Output:**
 <img width="1084" height="209" alt="image" src="https://github.com/user-attachments/assets/187d45fe-aab5-4bdc-bb7f-20f911de4103" />
 
