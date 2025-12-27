@@ -46,7 +46,8 @@
 - delete[] arr;                      // освобождаем память
 
 **Блок-схема:**
-<img width="2244" height="2805" alt="image" src="https://github.com/user-attachments/assets/db4d0ca2-1d7c-4672-a389-ba04df780ad9" />
+<img width="2865" height="5870" alt="Untitled diagram-2025-12-27-130922" src="https://github.com/user-attachments/assets/9efb578a-e20a-4210-bb36-2d2baba0ac31" />
+
 
 
 **Output:**
