@@ -91,6 +91,10 @@
 -    if (arr[i] < min_par) min_par = arr[i]; // Локальное обновление минимума в потоке
 -    if (arr[i] > max_par) max_par = arr[i]; // Локальное обновление максимума в потоке
 
+  **Блок-схема:**
+  <img width="2862" height="11780" alt="Untitled diagram-2025-12-27-131320" src="https://github.com/user-attachments/assets/09d7ffd2-adad-40b3-bd67-ea7fde3f75c6" />
+
+
 **Output:**
 <img width="1081" height="291" alt="image" src="https://github.com/user-attachments/assets/b73d65aa-cf1d-4b40-bf53-d19fbe82c78e" />
 
@@ -109,6 +113,10 @@
 - // Параллельный цикл: каждый поток суммирует свою часть массива
 - for (long long i = 0; i < SIZE; ++i) {
 -    sum_par += arr[i];  // Локальное накопление суммы в потоке
+
+**Блок-схема:**
+<img width="2862" height="11780" alt="Untitled diagram-2025-12-27-131320" src="https://github.com/user-attachments/assets/b707bd17-dbad-4acc-8d7b-10adce8bbde8" />
+
 
 **Output:**
 <img width="1088" height="305" alt="image" src="https://github.com/user-attachments/assets/d44ae872-c042-4725-bcfc-011fff2167f1" />
