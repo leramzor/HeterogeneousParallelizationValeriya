@@ -1,4 +1,4 @@
-# PracticalWork1_OpenMP_Valeriya
+# PracticalWork4_Optimization_Valeriya
 
 # Практическая работа №4: Оптимизация алгоритмов на GPU с использованием CUDA
 
