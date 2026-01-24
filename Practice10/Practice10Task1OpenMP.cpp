@@ -20,7 +20,6 @@ int main() {
 
         double end_time = omp_get_wtime(); // Фиксация времени окончания
 
-        // Вывод результатов на английском (как требовалось ранее)
         std::cout << "Practice 10 Task1 ";
         std::cout << ">>> [OPENMP] Threads: " << num_threads
             << " | Time: " << (end_time - start_time) << "s" << std::endl;
@@ -28,3 +27,4 @@ int main() {
     // Вывод: чем больше потоков, тем меньше время, но ускорение не линейно из-за затрат на создание потоков.
     return 0;
 }
+
